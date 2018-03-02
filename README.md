@@ -4,4 +4,4 @@ In this report, we use the handwritten characters to do the feature extraction a
 * We first prepare our images from the zip file "pngs" and glob all images that we want to use as our training set in the future. 
 * Then we determine six features of the images in order to recognize among our data. 
 * After that, we solve the determined matrix to classify the three characters. 
-** We first use quadratic programming to seperate '.' from numbers then use another quadratic programming to differentiate '1' and '0'.
+* The approach is the following: We first use quadratic programming to seperate '.' from numbers then use another quadratic programming to differentiate '1' and '0'.
